@@ -1,0 +1,21 @@
+//------ Main Navigation Styles ------
+.main-navigation {
+    ul {
+        background: $main-nav-background;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            padding: 20px 10px;
+
+            a {
+                text-decoration: none;
+                color: $main-nav-link-color;
+            }
+
+            a:hover {
+                color: $main-nav-link-color-hover;
+            }
+        }
+    }
+}

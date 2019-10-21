@@ -1,0 +1,31 @@
+.search-area h1{
+    font-family: 'Monoton', cursive;
+    padding: 15% 0 0;
+    margin: 0;
+}
+
+form {
+    display: flex;
+
+    input {
+        height: 50px;
+        flex-grow: 1;
+        font-size: $input-font-size;
+        padding-left: 30px;
+    }
+    
+    .submit {
+        background: $submit-button-background;
+        border: $submit-button-border;
+        color: $submit-button-color;
+        height: 56px;
+        margin-left: 30px;
+        width: 150px;
+        font-size: $submit-button-font-size;
+    
+        &:hover {
+            background: $submit-button-background-hover;
+            color: $submit-button-color-hover;
+        }
+    }
+}

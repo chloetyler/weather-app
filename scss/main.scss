@@ -1,0 +1,31 @@
+@import '_variables';
+@import '_layout';
+@import '_nav';
+@import '_footer';
+@import '_form';
+
+//------ Universal Styles ------
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background: $page-background;
+}
+
+h1 {
+    color: $h1-color;
+    font-size: $huge-font-size;
+}
+
+p {
+    color: $text-color;
+}
+
+img {
+    width: 500px;
+}
+
+.main-container {
+    margin: 0 50px;
+    height: calc(100vh - 100px);
+}

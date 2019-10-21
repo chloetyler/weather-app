@@ -1,0 +1,37 @@
+$main-1: #0B0C10;
+$main-2: #1F2833;
+$main-3: #C5C6C7;
+$main-4: #adebeb;
+$main-5: #45A29E;
+$main-6: #FCE181;
+
+//-------- general --------
+$page-background: $main-2;
+
+//text colors
+$h1-color: $main-6;
+$text-color: $main-3;
+$link-color: $main-4;
+$link-color-hover: $main-5;
+
+//font-size
+$medium-font-size: 24px;
+$huge-font-size: 60px;
+
+// main nav styles
+$main-nav-background: $main-1;
+$main-nav-link-color: $link-color;
+$main-nav-link-color-hover: $link-color-hover;
+
+//-------- form --------
+$input-text-color: $text-color;
+$input-font-size: $medium-font-size;
+
+$submit-button-background: none;
+$submit-button-color: $main-6;
+$submit-button-border: 2px solid $submit-button-color;
+$submit-button-font-size: $input-font-size;
+$submit-button-background-hover: $submit-button-color;
+$submit-button-color-hover: $page-background;
+$submit-button-border-hover: 2px solid $submit-button-color;
+
